@@ -1,9 +1,10 @@
-import * as mongoose from "mongoose"
+import mongoose from "mongoose"
 
 mongoose.connect(import.meta.env.SNOWPACK_PUBLIC_MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
+
 mongoose.connection
   .once("open", () => console.log("[DB]: Connected"))
   .on("error", (error) => console.warn("Warning: ", error))

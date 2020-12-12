@@ -4,11 +4,7 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   // mount: {},
-  plugins: [
-    "@snowpack/plugin-typescript",
-    "@snowpack/plugin-dotenv",
-    "@snowpack/web-test-runner-plugin",
-  ],
+  plugins: ["@snowpack/plugin-typescript", "@snowpack/plugin-dotenv"],
   // installOptions: {},
   // devOptions: {},
   // buildOptions: {},

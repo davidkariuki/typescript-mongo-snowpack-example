@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
-    "test": "web-test-runner \"src/**/*.test.ts\""
+    "test": "web-test-runner \"test/**/*.test.ts\""
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
